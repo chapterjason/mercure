@@ -5,6 +5,7 @@ go 1.14
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/go-redis/redis/v8 v8.1.3
 	github.com/gofrs/uuid v3.3.0+incompatible
 	github.com/gorilla/handlers v1.4.2
 	github.com/gorilla/mux v1.7.4
@@ -20,10 +21,11 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.0
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	github.com/unrolled/secure v1.0.8
 	github.com/yosida95/uritemplate v2.0.0+incompatible
 	go.etcd.io/bbolt v1.3.5
+	go.uber.org/atomic v1.4.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
 	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae // indirect

@@ -53,6 +53,9 @@ func NewTransport(config *viper.Viper) (Transport, error) {
 	case "null":
 		return NewLocalTransport(), nil
 
+	case "redis":
+		return NewRedisTransport(u)
+
 	case "bolt":
 		return NewBoltTransport(u)
 	}

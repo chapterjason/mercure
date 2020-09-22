@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  redis:
+    image: redis:6.0.8-alpine
+    command: "redis-server --loglevel verbose"
+    ports:
+      - '6379:6379'
